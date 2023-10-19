@@ -1,0 +1,28 @@
+.box1{
+    margin: 30px;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border: 20px solid #000;
+    border-image-source: url(image/border.png);
+    border-image-slice: 28;
+    border-image-repeat:space;
+    border-image-width: 30px;
+    background-color: burlywood;
+    border-image-outset: 30px;
+}
+.box2{
+    margin: 30px;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border: 20px solid #000;
+   border-image:linear-gradient(red,green,black,blue,gray,transparent)25 stretch;
+ 
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    background-image: repeating-linear-gradient(red 5%,green 20%,yellow 30%)
+}
